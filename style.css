@@ -1,13 +1,13 @@
 a {
-  color: blue;
+  color: ;
   text-decoration: none;
 }
 .saw {
-  color: gray;
+  color: #6592ff;
 }
 body{
   margin: 0;
-  background-color: blue;
+  background-color: powderblue;
 }
 h1 {
   font-size:45px;
