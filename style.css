@@ -23,6 +23,9 @@ ol {
   margin:0;
   padding: 20px;
 }
+#js1 {
+  margin-left: 5px;
+}
 #grid{
   display:grid;
   grid-template-columns: 200px 1fr;
