@@ -14,8 +14,7 @@ h1 {
   text-align:center;
   text-shadow:2px 2px 8px #FF0000;
   border-bottom: 2px solid gray;
-  padding-bottom: 20px;
-  padding-top: 0;
+  padding: 25px;
   margin: 0;
 }
 ol {
@@ -23,6 +22,10 @@ ol {
   width:120px;
   margin:0;
   padding: 20px;
+}
+#js_main {
+  padding-bottom: 25px;
+  padding-top: 0;
 }
 #js1 {
   margin-left: 5px;
