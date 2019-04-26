@@ -7,7 +7,7 @@ a {
 }
 body{
   margin: 0;
-  background-color: #a8ffc2;
+  background-color: powderblue;
 }
 h1 {
   font-size:45px;
@@ -37,7 +37,7 @@ ol {
 #grid ol {
   padding-left: 30px;
 }
-@media(max-width:800px){
+@media(max-width:800px){wed2
   #grid{
     display: block;
   }
