@@ -37,7 +37,7 @@ ol {
 #grid ol {
   padding-left: 30px;
 }
-@media(max-width:800px){
+@media(max-width:800px){wed2
   #grid{
     display: block;
   }
