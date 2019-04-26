@@ -23,7 +23,16 @@
     document.querySelector('body').style.backgroundColor = 'powderblue';
     document.querySelector('body').style.color = 'black';
   ">
-  <input type="button" value="Night">
+  <input id="night_day" type="button" value="night" onclick="
+    if(){
+      document.querySelector('body').style.backgroundColor = 'black';
+      document.querySelector('body').style.color = 'white';
+    } else {
+      document.querySelector('body').style.backgroundColor = 'powderblue';
+      document.querySelector('body').style.color = 'black';
+    }
+
+  ">
   <h1 id="js_main"><a href="index.html" title="WEB Home">WEB - 코딩무료강의</a></h1>
   <div id="grid">
   <ol>
