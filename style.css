@@ -1,13 +1,9 @@
 a {
-  color: ;
   text-decoration: none;
-}
-.saw {
-  color: #6592ff;
 }
 body{
   margin: 0;
-  background-color: powderblue;
+  background-color: #FFF9E1;
 }
 h1 {
   font-size:45px;
@@ -27,7 +23,7 @@ ol {
   padding-bottom: 25px;
   padding-top: 0;
 }
-#js1 {
+#night_day {
   margin-left: 5px;
 }
 #grid{
