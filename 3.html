@@ -13,39 +13,7 @@
       gtag('config', 'UA-138607460-1');
     </script>
     <link href="style.css" rel="stylesheet">
-    <script>
-      function LinksSetColor(color){
-        var alist = document.querySelectorAll('a');
-        var i = 0;
-        while(i<alist.length){
-        console.log(alist[i]);
-        alist[i].style.color = color;
-        i = i+1;
-        }
-      }
-      function BodySetColor(color){
-        document.querySelector('body').style.color = color;
-      }
-      function BodyBackgroundColor(color){
-        document.querySelector('body').style.backgroundColor = color;
-      }
-      function nightDayHandler(my){
-        var target=document.querySelector('body');
-        if(my.value === 'Night'){
-          BodyBackgroundColor('black');
-          BodySetColor('white');
-          my.value = 'Day';
-
-          LinksSetColor('powderblue');
-        } else {
-          BodyBackgroundColor('#FFF9E1');
-          BodySetColor('black');
-          my.value = 'Night';
-
-          LinksSetColor('blue');
-        }
-      }
-    </script>
+    <script src="colors.js"></script>
   </head>
   <body>
     <input id="night_day" type="button" value="Night" onclick="
@@ -54,9 +22,9 @@
     <h1 id="js_main"><a href="index.html" title="WEB Home">WEB - 코딩무료강의</a></h1>
     <div id="grid">
       <ol>
-        <li><a href="1.html" title="HTML 무료강의 site"><strong>HTML</strong></a></li>
-        <li><a href="2.html" title="CSS 무료강의 site"><strong>CSS</strong></a></li>
-        <li><a href="3.html" title="JavaScript 무료강의 site"><strong>JavaScript</strong></a></li>
+        <li><a href="1.html" class="saw" title="HTML 무료강의 site"><strong>HTML</strong></a></li>
+        <li><a href="2.html" class="saw" title="CSS 무료강의 site"><strong>CSS</strong></a></li>
+        <li><a href="3.html" class="saw" title="JavaScript 무료강의 site"><strong>JavaScript</strong></a></li>
       </ol>
       <div id="article">
         <h2><a href="https://opentutorials.org/course/3085" target="_blank" title="WEB2 -JavaScript" >JavaScript</a></h2>
